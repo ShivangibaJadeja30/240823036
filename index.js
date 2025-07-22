@@ -43,8 +43,125 @@
 // console.log(fourteen(15));
 
 
-// import fourteen from "./evenodd.js"
-// console.log(fourteen(15));
+// import fifteen from "./evenodd.js"
+// console.log(fifteen(15));
+
+
+// import sixteen from "./evenodd.js"
+// console.log(sixteen(15));
+
+
+
+// import seventeen from "./evenodd.js"
+// console.log(seventeen(15));
+
+
+
+// import eighteen from "./evenodd.js"
+// console.log(eighteen(15));
+
+
+
+// import nineteen from "./evenodd.js"
+// console.log(nineteen(15));
+
+
+// import twenty from "./evenodd.js"
+// console.log(twenty(15));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
