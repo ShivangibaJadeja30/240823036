@@ -5,7 +5,7 @@ const Pcontroller = require("../Controller/Pcontroller");
 Route.get("/index",Pcontroller.index);
 Route.get("/show/:id",Pcontroller.show);
 Route.post("/store",Pcontroller.store);
-Route.put("/update:id",Pcontroller.update);
-Route.delete("/delete:id",Pcontroller.destroy);
+Route.put("/update/:id",Pcontroller.update);
+Route.delete("/delete/:id",Pcontroller.delete);
 
 module.exports=Route;
