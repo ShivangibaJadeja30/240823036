@@ -11,4 +11,18 @@ exports.updateValidator=joi.object({
     Price:joi.num().min(1).require()
 });
 
-
+const validate = (req, res, next) => {
+    const { error } = exports.createvalidator.validate(req.body);
+    if (error) {
+        return res.status(400).send(error.details[0].message);
+    }    
+    next();
+};  
+exports.validate = validate;
+exports.updatevalidate = (req, res, next) => {
+    const { error } = exports.updatevalidator.validate(req.body);
+    if (error) {
+        return res.status(400).send(error.details[0].message);
+    }
+    next();
+};  
