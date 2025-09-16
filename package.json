@@ -4,7 +4,7 @@
   "description": "node.js projects",
   "main": "songindex.js",
   "scripts": {
-    "start": "nodemon songindex.js",
+    "start": "nodemon pindex.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
