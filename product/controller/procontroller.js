@@ -1,14 +1,16 @@
+// const Product=require("../model/product");
 const Product=require("../model/product");
+const mongoose=require("mongoose");
 
-exports.index=(req,res)=>{
-    Product.find()
-    .then((allproducts)=>{
-        console.log("All Products : ",allproducts);
-        res.send({message:"Products are : ",data:allproducts});
-    })
-    .catch((error)=>{
-        console.error("Error retrieving products.....",error);
-    });
+exports.index=async(req,res)=>{
+   try {
+    const data=await Product.find();
+
+    res.status(200).json({data:data})
+   } catch (error) {
+    console.error(error.message);
+   }
+    
 };
 
 exports.show=(req,res)=>{

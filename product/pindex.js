@@ -6,7 +6,11 @@ mongoose.connect("mongodb+srv://jadejashivangiba2_db_user:Shivi_3006@nodecluster
 
 const proRoute = require("./route/prorouter");
 const app = express();
-const PORT = 80;
+const PORT = 3000;
+
+app.get("/home",(req,res)=>{
+  res.send("Hello");
+})
 
 app.use(express.json());
 app.use("/product",proRoute);

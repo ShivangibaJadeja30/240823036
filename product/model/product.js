@@ -5,4 +5,4 @@ const proSchema=new mongoose.Schema({
     price:Number,
 });
 
-module.exoports=mongoose.model("Product",proSchema);
+module.exports=mongoose.model("Product",proSchema);

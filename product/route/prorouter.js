@@ -15,3 +15,5 @@ Router.post("/store", (req, res, next) => {
 
   procontroller.store(req, res, next);
 });
+
+module.exports = Router;
