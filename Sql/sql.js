@@ -1,6 +1,5 @@
 const express=require("express");
-const app=
-
+const app=express();
 const seq=require("sequalize");
 const db=new seq("sql","root","",{host:"localhost",dialect:"mysql"});
 db.authenticate()

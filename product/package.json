@@ -4,15 +4,15 @@
   "description": "",
   "main": "pindex.js.js",
   "scripts": {
-    "start":"nodemon pindex.js",
+    "start": "nodemon pindex.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express":"^5.1.0",
-    "joi":"^18.0.1",
-    "mongoose":"^8.18.2"
+    "express": "^5.1.0",
+    "joi": "^18.0.1",
+    "mongoose": "^8.19.1"
   }
 }

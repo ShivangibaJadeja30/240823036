@@ -1,7 +1,7 @@
 const express = require("express");
 const Router = express.Router();
 const procontroller=require("../controller/procontroller");
-const{cValidator,validate}=require("../validation/provalidator");
+const{cValidator,uvalidator,validate}=require("../validation/provalidator");
 
 Router.get("/index",procontroller.index);
 Router.get("/show/:id",procontroller.show);
@@ -15,5 +15,7 @@ Router.post("/store", (req, res, next) => {
 
   procontroller.store(req, res, next);
 });
+Router.put("/update/:id", procontroller.update);
+Router.delete("/delete/:id", procontroller.delete);
 
 module.exports = Router;
