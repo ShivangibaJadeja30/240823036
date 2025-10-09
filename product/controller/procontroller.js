@@ -30,6 +30,7 @@ exports.store=(req,res)=>{
         category:req.body.category,
         price:req.body.price,
     });
+    
 newProduct
     .save()
     .then(()=>{
